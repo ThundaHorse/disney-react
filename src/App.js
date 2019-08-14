@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import Park from './attractions'; 
+import './style/App.css';
+import Park from './components/Parks';
 
 function App() {
   return (

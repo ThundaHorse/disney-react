@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';
 
 axios.defaults.baseURL =
-  process.env.NODE_ENV === "development" ? "http://localhost:3001" : "/";
-
+  process.env.NODE_ENV === 'development' ? 'http://localhost:3001' : '/';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
